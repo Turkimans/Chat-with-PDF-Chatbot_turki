@@ -87,7 +87,7 @@ def main(user_id):
     st.title("💬 Chatbot")
     st.caption("🚀 A Streamlit chatbot powered by OpenAI LLM")
 
-    OPENAI_API_KEY = "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"
+    OPENAI_API_KEY = ""
 
     pdf = st.file_uploader("Upload your PDF", type="pdf")
 
